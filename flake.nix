@@ -18,6 +18,7 @@
 
       in rec {
         packages.pixiecore = pkgs.pixiecore;
+        packages.wakeonlan = pkgs.wakeonlan;
 
         defaultPackage = packages.pixiecore;
         #defaultApp = {
