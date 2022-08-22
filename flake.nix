@@ -15,14 +15,9 @@
           inherit system;
     #      overlays = [ self.overlay ];
         };
-     #   lib = pkgs.lib;
-        #lua = pkgs.lua5_3.withPackages(ps: with ps; [ busted luafilesystem ]);
 
       in rec {
-        packages.qemu_full = pkgs.pixiecore;
-        #packages.gnuplot = pkgs.gnuplot;
-        #packages.unzip = pkgs.unzip;
-        #defaultPackage = packages.s4;
+        packages.pixiecore = pkgs.pixiecore;
 
         defaultPackage = packages.pixiecore;
         #defaultApp = {
@@ -37,12 +32,9 @@
         #packages = flake-utils.lib.flattenTree {
         #  gnuplot = pkgs.gnuplot;
         #};
-        #packages.s4 = pkgs.s4;
-        #packages.gnuplot = pkgs.gnuplot;
         #apps.gnuplot = flake-utils.lib.mkApp { drv = packages.gnuplot; };
         #defaultPackage = packages.s4;
         #defaultApp = apps.gnuplot;
-       # packages.gnuplot = pkgs.gnuplot;
        # packages.x86_64-linux.gnuplot = pkgs.legacyPackages.x86_64-linux.gnuplot;
       });
 
