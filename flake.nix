@@ -19,6 +19,9 @@
       in rec {
         packages.pixiecore = pkgs.pixiecore;
         packages.wakeonlan = pkgs.wakeonlan;
+        packages.syslinux = pkgs.syslinux;
+        packages.mtools = pkgs.mtools;
+        packages.dosfstools = pkgs.dosfstools;
 
         defaultPackage = packages.pixiecore;
         #defaultApp = {
