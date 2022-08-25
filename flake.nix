@@ -21,7 +21,9 @@
         packages.wakeonlan = pkgs.wakeonlan;
         packages.syslinux = pkgs.syslinux;
         packages.mtools = pkgs.mtools;
-        packages.dosfstools = pkgs.dosfstools;
+        packages.cpio = pkgs.cpio;
+       # packages.dosfstools = pkgs.dosfstools;
+       # packages.makeInitrd = pkgs.makeInitrd;
 
         defaultPackage = packages.pixiecore;
         #defaultApp = {
