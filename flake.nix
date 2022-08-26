@@ -22,8 +22,9 @@
         packages.syslinux = pkgs.syslinux;
         packages.mtools = pkgs.mtools;
         packages.cpio = pkgs.cpio;
-       # packages.dosfstools = pkgs.dosfstools;
-       # packages.makeInitrd = pkgs.makeInitrd;
+        packages.dosfstools = pkgs.dosfstools;
+        packages.ms-sys = pkgs.ms-sys;
+        packages.gparted = pkgs.gparted;
 
         defaultPackage = packages.pixiecore;
         #defaultApp = {
