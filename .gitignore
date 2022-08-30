@@ -1,1 +1,9 @@
-Syslinux/
+/Syslinux/
+/dosfstools/
+/gparted/
+/ms-sys/
+/mtools/
+/netboot_media/
+/pixiecore/
+/tinycore_pxe/
+/wakeonlan/
